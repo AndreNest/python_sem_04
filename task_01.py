@@ -5,3 +5,9 @@
 s = ['a', 'b', 'c', 'd', 'e']
 b = s[2:] + s[:2]
 print(b)
+
+s2 = ['a', 'b', 'c', 'd', 'e']
+for i in range(2):
+    k = s2.pop(0)
+    s2.append(k)
+print(s2)
